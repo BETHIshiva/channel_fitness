@@ -1,0 +1,35 @@
+
+ 
+    <div #topOfPage class="menu-bar content" style="background-color: #0dbdf6; " [ngClass]="{'fixed-header': isHeaderFixed}">
+       
+        <a href="#" style="text-decoration: none; color: #fff; font-size: 20px;  font-weight: 800;"  >CHANNEL FITNESS<br><small style="margin-left: 22px;">GET FIT WITH US</small></a>
+      
+      <ul>
+        <li><a routerLink="/home">Home</a></li>
+        <li><a routerLink="/services">SERVICES</a></li>
+       
+        <li><a >PROGRAMMES</a>
+
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a routerLink="/persenal_training" style="font-size: 16px;" class="text-uppercase">Personal Training</a></li>
+                  <hr>
+                  <li><a routerLink="/transfermation_sessions" class="text-uppercase" style="font-size: 16px;">Transformation Sessions</a></li>
+                  <hr>
+                  <li>
+                    <a routerLink="/group_traing" class="text-uppercase" style="font-size: 16px;">Group Training</a>
+                    
+                    
+                  </li>
+                 
+                </ul>
+              </div>
+        </li>
+        <li><a routerLink="/about" class="text-uppercase">ABOUT</a>
+        </li>
+        <li><a routerLink="/carriers" class="text-uppercase">Carriers</a></li>
+        <li><a routerLink="/contact" class="text-uppercase">Contact</a></li>
+      </ul>
+    </div>
+
+   
